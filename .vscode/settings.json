@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "insercao.C": "cpp",
+        "stdlib.h": "c"
+    }
+}
