@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 typedef struct celula{
-    int dado;
+    int ;
     struct celula *prox;
 } celula;
 
 celula *busca(celula *le, int x){
     celula *p = le->prox;
-    while(p != NULL && p->dado != x){
+    while(p != NULL && p-> != x){
         p = p->prox;
     }
     return p;
@@ -15,7 +15,7 @@ celula *busca(celula *le, int x){
 
 celula *busca_rec(celula *le, int x){
     celula *p = le->prox;
-    if(p != NULL && p->dado != x){
+    if(p != NULL && p-> != x){
         return busca_rec(p, x);
     }
     return p;
